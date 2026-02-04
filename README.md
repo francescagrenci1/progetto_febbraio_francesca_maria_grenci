@@ -1,4 +1,4 @@
-# VERIFICA DI ENCODING FAME
+# VERIFICA DI UN ENCODING FAME
 ## Descrizione generale
 In chemioinformartica, con "encoding" si intende la trascrizione di molecole sottoforma di stringa, al pari di quanto accade con le formule molecolari. 
 In particolare, in questo progetto viene utilizzato un tipo di encoding detto "FAME", che segue delle regole di implementazione ben precise.
