@@ -74,12 +74,23 @@ Dopo aver contemplato le varie casistiche, la funzione verifica che la valenza t
 3) dopo il calcolo della valenza, la funzione verifica che essa corrisponda alla valenza massima possibile per quel determinato atomo: se la verifica è corretta, avanza di due posizioni per giungere all'atomo successivo fino a scansionare tutta la ramificazione.
 
 ## Moduli
-### `moduli_fame.py`:
-Gestisce tutte le funzioni che caratterizzano il progetto, elencate nella sezione del READme "Dettaglio funzioni".
+### `verifica_sintassi_fame.py`:
+Gestisce la funzione `verifica_sintassi_fame()`.
+
+### `verifica_valenza_fame.py`:
+Gestisce la funzione `verifica_valenza()`, `calcola_valenza_legami_ramificazione()` e `calcola_valenza_atomi_ramificazione()`.
 
 ### `main.py`:
-Contiene esempi di verifica dell'encoding FAME tramite l'utilizzo delle funzioni contenute in moduli_fame.py.
+Importa i moduli `verifica_sintassi_fame.py` e `verifica_valenza_fame.py`, che utilizza per la verifica degli encoding FAME, di cui contiene numerosi esempi.
 
+## Quickstart:
+### Prerequisiti:
+- Python 3.x
+(nessuna libreria esterna richiesta)
+
+### Installazione:
+Per eseguire il programma è necessario copiare i file `main.py`, `verifica_sintassi_fame.py`, `verifica_valenza_fame.py` in una cartella su Pycharm.
+Nel `main.py`, per verificare il funzionamento del programma su diversi esempi di molecole, è necessario inserire negli argomenti delle funzioni `verifica_sintassi_fame()` e `verifica_valenza()` la stinga della molecola da verificare, scegliendola eventualmente tra gli esempi già definiti.
 
 
 
