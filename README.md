@@ -59,7 +59,7 @@ Dopo aver contemplato le varie casistiche, la funzione verifica che la valenza t
 
 **Processo di funzionamento:**
 1) considera il primo carattere della stringa: se questo coincide con "^", significa che trova l'inizio della ramificazione (cioè della sottostringa), altrimenti la ramificazione non è presente;
-2) se trova l'inizio della ramificazione, inizia a scorrere su di essa fino a trovare la terminazione ("&"), calcolandone la lunghezza: a questo punto, calcola la valenza dei singoli legami compresi nella ramificazione, che sono associati all'atomo a sinistra, e restituisce i valori della lunghezza e della valenza dei legami della ramificazione.
+2) se trova l'inizio della ramificazione, inizia a scorrere su di essa fino a trovare la terminazione ("&"), calcolandone la lunghezza: nel mentre, calcola la valenza dei singoli legami compresi nella ramificazione, che sono associati all'atomo a sinistra, e restituisce i valori della lunghezza e della valenza dei legami della ramificazione.
 
 ### `calcola_valenza_atomi_ramificazione()`:
 **Input:**
